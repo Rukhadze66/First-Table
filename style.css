@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 9, 51);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Wix Madefor Text", sans-serif;
+  color: #eeece5;
+}
+
+header {
+  padding: 0 40px 0 40px;
+  justify-content: space-between;
+  display: flex;
+  height: 119px;
+}
+div.author {
+  display: flex;
+
+  svg {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    fill: #eeece5;
+  }
+
+  p {
+    font-size: 20px;
+    height: fit-content;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    a.contact_us {
+      padding: 13px 38px;
+      border: 1px solid #eeece5;
+    }
+  }
+}
